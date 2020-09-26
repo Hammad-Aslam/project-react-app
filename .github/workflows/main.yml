@@ -28,8 +28,7 @@ jobs:
           version: 12
       - name: GitHub Action for Yarn Pkg
         uses: funkyremi/yarn-github-action@1.0.0
-        with:
-          cmd: install     
+     
       - name: To build yarn
         run: yarn build 
       - name : Installing surge
