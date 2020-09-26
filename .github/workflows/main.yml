@@ -27,7 +27,7 @@ jobs:
         with:
           version: 12
       - name: GitHub Action for Yarn Pkg
-        uses: funkyremi/yarn-github-action@1.0.0
+        uses: funkyremi/yarn-github-action@v2-beta
         with:
           cmd: install     
       - name: To build yarn
